@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(208, 249, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.contener{
+    background-color: rgba(42, 223, 255, 0.3);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+.box{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.text{
+    display: none;
+}
